@@ -1,0 +1,153 @@
+body{
+    text-align: center;
+    font-family: "Montserrat";
+    margin: 0;
+
+}
+.container1{
+    background-color:#ABC9FF ;
+    margin: 0 auto 16px;
+    height: 50px;
+    /* width: 100%; */
+}
+.navbar-brand{
+    display: block;
+    margin: auto;
+    padding-top: 7px;
+    padding-left: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+h1 {
+    margin: auto;
+    padding: 0 4px;
+    
+}
+h1 span {
+    color:  #ff3300;
+}
+h5 {
+    font-size: 20px;
+    margin:0;
+    padding:0;
+}
+hr {
+    border-top: dotted #6666ff 6px;
+    border-bottom: none;
+    width: 85%;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h6 {
+    font-size: 18px;
+    margin: 0px auto 3px auto;
+}
+label {
+    width:100px;
+    height:30px;
+    margin-top: 0;
+}
+input{
+    width:200px;
+    height:35px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+
+.big {
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+}
+button {
+    width: 80px;
+    height:25px;
+}
+.form {
+    /* display: inline-block; */
+    margin: auto;
+    background-color:  #ABC9FF;
+    border-radius: 10px;
+    box-shadow: 9px 10px 7px -5px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 9px 10px 7px -5px rgba(0,0,0,0.41);
+    -moz-box-shadow: 9px 10px 7px -5px rgba(0,0,0,0.41);
+    height: 310px;
+    width: 500px;
+    padding-top: 10px;
+}
+
+.form:hover{
+    background-color: #d63384;
+
+} 
+/* image stying */
+
+/* .img1 {
+    padding-right: 5px;
+    padding-top: 10px;
+} */
+
+.img11{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 80%;
+    margin-top: 2%;
+}
+
+.img12{
+    width: 300px;
+
+}
+
+.img13{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 80%;
+    margin-top: 2%;
+}
+.footer{
+    margin-top: 50px;
+    
+}
+.img14{
+    width: 16px;
+    height: 16px;
+    padding-right: 16px;
+}
+    .img15{
+        width: 16px;
+        height: 16px;
+        padding-right: 16px;
+}
+
+.img16{
+    width: 16px;
+    height: 16px;    
+}
+
+
+@media screen and (max-width:680px) {
+    .form {
+        /* display: inline-block; */
+        margin: auto;
+        background-color:  #80b3ff;
+        border-radius: 5px;
+        box-shadow: 9px 10px 7px -5px rgba(0,0,0,0.41);
+        -webkit-box-shadow: 9px 10px 7px -5px rgba(0,0,0,0.41);
+        -moz-box-shadow: 9px 10px 7px -5px rgba(0,0,0,0.41);
+        height: 400px;
+        width: 300px;
+        padding-top: 10px;
+    }
+}
+
+    h6{
+        padding: 0px 5px;
+    }
+    
